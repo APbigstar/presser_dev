@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Container, Image, Form, Dropdown } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 
@@ -8,8 +8,6 @@ import user1 from '../../assets/images/users/user1.png'
 import dropdown from '../../assets/images/icons/dropdown.png'
 
 const DashboardHeader = () => {
-
-    const handleShow = () => setShow(true);
 
     return (
         <>
@@ -25,7 +23,7 @@ const DashboardHeader = () => {
                             </Link>
                         </div>
                         <div className="iq-search-bar device-search  position-relative">
-                            <form action="#" className="searchbox" onClick={handleShow} data-bs-toggle="modal" data-bs-target="#exampleModalFullscreenSm">
+                            <form action="#" className="searchbox">
                                 <Form.Control
                                     type="text"
                                     className="text search-input form-control cutomize-search-input"
