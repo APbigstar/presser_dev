@@ -38,17 +38,17 @@ const MainNav = () => {
                             {
                                 (() => {
                                     if (location.pathname === breakingPath)
-                                        return "Breaking"
+                                        return "Breaking";
                                     if (location.pathname === speaksPath)
-                                        return "Speaks"
+                                        return "Speaks";
                                     if (location.pathname === newsPath)
-                                        return "Top News Stories"
+                                        return "Top News Stories";
                                     if (location.pathname === trendingPath)
-                                        return "Trending Now"
+                                        return "Trending Now";
                                     if (location.pathname === livePath)
-                                        return "Live"
+                                        return "Live";
                                     else (location.pathname === channelPath)
-                                    return "Channel"
+                                    return "Channel";
                                 })()
                             }
                         </h1>
