@@ -47,7 +47,7 @@ const MainNav = () => {
                                         return ("Trending Now");
                                     if (location.pathname === livePath)
                                         return ("Live");
-                                    else (location.pathname === channelPath)
+                                    if (location.pathname === channelPath)
                                         return ("Channel");
                                 })()
                             }
