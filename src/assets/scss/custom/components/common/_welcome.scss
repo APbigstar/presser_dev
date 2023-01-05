@@ -1,0 +1,250 @@
+.white_main_color {
+	background: #6495ED;
+}
+
+.welcome_logo_img {
+	width: 300px;
+	height: auto;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.font-14 {
+	font-size: 14px !important;
+	font-weight: 500;
+	line-height: 16px;
+}
+
+.font-16 {
+	font-size: 16px !important;
+	font-weight: 500;
+	line-height: 18px;
+}
+
+.font-18 {
+	font-size: 18px !important;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.font-20 {
+	font-size: 20px !important;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.font-24 {
+	font-size: 24px !important;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.font-34 {
+	font-size: 34px !important;
+	font-weight: 600;
+	line-height: 38px;
+}
+
+.color-main {
+	color: var(--bs-primary);
+	;
+}
+
+.color-second {
+	color: #8D969D;
+}
+
+
+.onboarding_header_nav {
+	height: 80px;
+
+	.onboarding_logo_img {
+		width: 193px;
+		height: auto;
+	}
+}
+
+.dashboard-body {
+	margin-top: 24px;
+	// padding: 0 40px;
+
+}
+
+
+
+.dashboard-nav-bar-container {
+	.dashboard-nav-bar-content {
+		background: #F8F9FA;
+		border-radius: 8px;
+		padding: 8px 0;
+
+		a {
+			padding: 8px 16px;
+
+			&.active {
+				background: var(--bs-primary);
+				;
+				border-radius: 8px;
+				color: white !important;
+				font-weight: bold;
+			}
+
+			&:hover {
+				background: var(--bs-primary);
+				;
+				border-radius: 8px;
+				color: white !important;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.dashboard-breadcrumbs-nav {
+	margin-top: 38px;
+
+	.news_page_tab {
+		border-top: 1px solid rgba(141, 150, 157, 0.35);
+		border-bottom: 1px solid rgba(141, 150, 157, 0.35);
+	}
+
+	.dashboard-breadcrumbs-tab {
+		background: #DADDE0;
+		border-radius: 5px;
+
+		span {
+			padding: 2px 30px;
+			font-size: 12px;
+
+			&.active {
+				background: var(--bs-primary);
+				color: white !important;
+				border-radius: 5px;
+				font-weight: bold;
+			}
+		}
+
+		.breaking_news_tab {
+			padding: 0px 30px;
+			background: #EDEFF1 !important;
+			border: 1px solid black;
+			border-radius: 5px;
+		}
+	}
+}
+
+.sidebar-body {
+	height: 100%;
+
+	.scroll-content {
+		position: fixed;
+	}
+}
+
+.onboarding_page {
+	overflow: hidden !important;
+	background: #EDEFF1;
+
+	.step_dot {
+		display: block;
+		width: 10px;
+		height: 10px;
+		background: #C4C4C4;
+		border-radius: 50%;
+		cursor: pointer;
+
+		&:hover {
+			background: #6495ED;
+		}
+
+		&.active {
+			background: #6495ED;
+		}
+	}
+
+	.arrow_icon {
+		padding: 0 30px;
+	}
+
+	.stepper-container {
+
+		.stepper-content {
+			width: 442px;
+			padding-top: 80px;
+
+			p {
+				text-align: justify;
+			}
+		}
+	}
+}
+
+.settings-accordion {
+	.accordion-body {
+		p {
+			font-size: 15px;
+			font-weight: bold;
+		}
+	}
+
+	.accordion-item {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+
+		.accordion-button {
+			font-size: 16px;
+			font-weight: bold;
+		}
+	}
+
+	.accordion-item:last-child {
+		border-bottom: none !important;
+	}
+
+	.accordion-item:first-child {
+		.accordion-button::after {
+			display: none;
+		}
+
+		.accordion-button:not(.collapsed) {
+			background-color: transparent !important;
+		}
+	}
+}
+
+.messages-container {
+	.message_card {
+		cursor: pointer;
+		img {
+			width: 50px;
+			height: 50px;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+
+		.message_badge {
+			background: var(--bs-primary);
+			border-radius: 8px;
+			padding: 0px 8px;
+			font-size: 12px;
+			line-height: 16px;
+		}
+
+		.message_text {
+			overflow: hidden;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 1;
+			white-space: pre-wrap;
+		}
+
+		.overflow_visible {
+			overflow: visible !important;
+		}
+
+		.display_block {
+			display: block !important;
+		}
+	}
+}

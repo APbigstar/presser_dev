@@ -1,0 +1,39 @@
+.white_main_color {
+	background: #212529;
+}
+
+.color-second {
+	color: #FCFCFC !important;
+}
+
+.dashbord-container {
+	.text-black {
+		color: #EDEFF1 !important;
+	}
+}
+
+.dashboard-nav-bar-container {
+	.dashboard-nav-bar-content {
+		background: #373C40;
+	}
+}
+
+.breadcrumb {
+	background: #212529;
+}
+
+.breadcrumb-item.active {
+	color: #EDEFF1 !important;
+}
+
+.dashboard-breadcrumbs-nav {
+	.dashboard-breadcrumbs-tab {
+		background: #373C40;
+
+		.breaking_news_tab {
+			background: #212529 !important;
+			border-color: #EDEFF1 !important;
+		}
+	}
+
+}

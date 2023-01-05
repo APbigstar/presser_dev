@@ -1,0 +1,48 @@
+.sidebar-list {
+    .nav-item {
+        margin-bottom: 1rem;
+
+        .nav-link {
+            border-radius: 8px !important;
+
+            &:hover {
+                background: rgba(63, 133, 227, 0.2) !important;
+
+                * {
+                    color: var(--bs-primary);;
+                }
+            }
+
+            .svg-inline--fa {
+                height: 24px !important;
+                width: 24px !important;
+                color: #262D2E;
+            }
+
+            span {
+                font-size: 24px;
+                font-weight: bold;
+                color: #262D2E;
+                margin-left: 20px !important;
+            }
+        }
+
+        .nav-link.active {
+            background: rgba(63, 133, 227, 0.2) !important;
+
+            * {
+                color: var(--bs-primary);;
+            }
+        }
+
+        .nav-link.nav-link-speak {
+            display: flex;
+            justify-content: center;
+            background: var(--bs-primary);
+
+            &:hover {
+                background: var(--bs-primary);
+            }
+        }
+    }
+}

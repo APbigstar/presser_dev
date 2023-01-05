@@ -1,0 +1,24 @@
+.verification_page {
+	.mail_logo_img {
+		width: 165px;
+		margin: 100px 0;
+	}
+
+	.btn-transparent {
+		background: transparent;
+		border: 1px solid $primary;
+		color: $primary;
+		padding: 0;
+		width: 320px;
+
+		&:hover {
+			border: 1px solid $primary;
+			color: $primary;
+		}
+	}
+
+	.btn-primary {
+		padding: 0;
+		width: 320px;
+	}
+}

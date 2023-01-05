@@ -1,0 +1,88 @@
+.auth_page {
+	padding-top: 150px;
+
+	.auth_dark_logo_img,
+	.auth_white_logo_img {
+		width: 220px;
+	}
+
+	.auth_dark_logo_img {
+		display: none;
+	}
+
+	.auth_page_text_group {
+		margin-top: 100px;
+
+		.btn-primary {
+			padding: 0px 30px !important;
+		}
+	}
+
+	.position-absolute {
+		bottom: 72PX;
+		width: 340PX;
+	}
+}
+
+.signin_page,
+.signup_page {
+	.form-floating {
+		input {
+			background: #edeff1;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			border-radius: 0;
+			width: 300px;
+			font-size: 18px;
+			line-height: 22px;
+		}
+
+		label {
+			font-size: 18px;
+			line-height: 22px;
+		}
+	}
+
+	.auth_page_text_group {
+		.btn-primary {
+			margin-top: 60px;
+		}
+	}
+}
+
+.iq-social-media {
+	margin: 0;
+	padding: 0;
+	float: right;
+
+	li {
+		list-style: none;
+		float: left;
+		margin-right: 0.625rem;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		a {
+			height: 1.875rem;
+			width: 1.875rem;
+			text-align: center;
+			font-size: 1.125rem;
+			line-height: 1.875rem;
+			display: inline-block;
+			background: rgba(var(--bs-primary-rgb), .2);
+			;
+			color: var(--bs-primary) !important;
+
+			@if $enable-rounded ==true {
+				@include radius-mixin($border-radius);
+			}
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+.card {
+    border: 1px solid #51575C !important;
+    background: #373C40;
+    .card-header, .card-footer {
+        background-color: transparent;
+        border-bottom-color: $border-color;
+    }
+}
+.card-post-toolbar {
+    .dropdown-menu {
+		a {
+            border-color: $border-color;
+            &:hover {
+                background-color: $body-bg;
+                color: var(--#{$variable-prefix}primary);
+            }
+		}
+        .dropdown-item {
+            color: $body-color;
+        }
+	}
+    .dropdown-toggle {
+        i {
+            color: $body-color;
+        }
+    }
+}
+
+.card-header-toolbar.dashboard-header-userinfo {
+    background-color: #373C40;
+    padding: 10px;
+    border-radius: 40px;
+}

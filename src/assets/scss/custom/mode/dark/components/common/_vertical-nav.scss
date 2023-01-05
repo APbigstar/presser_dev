@@ -1,0 +1,27 @@
+.sidebar-list {
+    .nav-item {
+        .nav-link {
+            .svg-inline--fa {
+                color: #FDFDFD;
+            }
+
+            span {
+                color: #FDFDFD;
+
+                &:hover {
+
+                    * {
+                        color: var(--bs-primary);
+                    }
+                }
+            }
+        }
+
+        .nav-link.active {
+
+            * {
+                color: var(--bs-primary);;
+            }
+        }
+    }
+}

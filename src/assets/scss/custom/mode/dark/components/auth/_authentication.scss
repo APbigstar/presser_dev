@@ -1,0 +1,23 @@
+.auth_page {
+	.auth_dark_logo_img {
+		display: block;
+	}
+
+	.auth_white_logo_img {
+		display: none;
+	}
+
+	.text-black {
+		color: white !important;
+	}
+}
+
+.signin_page,
+.signup_page {
+	.form-floating {
+		input {
+			background: #212529;
+			border-color: white;
+		}
+	}
+}
