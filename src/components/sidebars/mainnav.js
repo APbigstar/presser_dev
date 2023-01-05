@@ -48,7 +48,7 @@ const MainNav = () => {
                                     if (location.pathname === livePath)
                                         return ("Live");
                                     else (location.pathname === channelPath)
-                                    return ("Channel");
+                                        return ("Channel");
                                 })()
                             }
                         </h1>
