@@ -9,7 +9,6 @@ import dropdown from '../../assets/images/icons/dropdown.png'
 
 const DashboardHeader = () => {
 
-    const [show, setShow] = useState(false);
     const handleShow = () => setShow(true);
 
     return (

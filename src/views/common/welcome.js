@@ -73,9 +73,9 @@ const Stats = ({
     <div className='d-flex justify-content-between w-100 align-items-center mt-5'>
         <div className='d-flex flex-column'>
             <div className='d-flex'>
-                <span className={`step_dot me-1 ${currentStep == 1 ? 'active' : ''}`} onClick={firstStep}></span>
-                <span className={`step_dot me-1 ${currentStep == 2 ? 'active' : ''}`} onClick={() => goToStep(2)}></span>
-                <span className={`step_dot ${currentStep == 3 ? 'active' : ''}`} onClick={lastStep}></span>
+                <span className={`step_dot me-1 ${currentStep === 1 ? 'active' : ''}`} onClick={firstStep}></span>
+                <span className={`step_dot me-1 ${currentStep === 2 ? 'active' : ''}`} onClick={() => goToStep(2)}></span>
+                <span className={`step_dot ${currentStep === 3 ? 'active' : ''}`} onClick={lastStep}></span>
             </div>
             <Link to="/auth/auth-option" className='m-0 p-0 text-black font-16'>Skip</Link>
         </div>
