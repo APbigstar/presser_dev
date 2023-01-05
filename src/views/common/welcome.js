@@ -4,7 +4,6 @@ import StepWizard from "react-step-wizard";
 import { Link } from "react-router-dom";
 
 import OnboardingHeader from '../../components/headers/onboarding-header';
-// import SettingOffCanvas from '../../components/setting/SettingOffCanvas'
 
 import logoImg from '../../assets/images/logos/complete_logo1_white.png'
 import headingImg1 from '../../assets/images/pages/common/heading_img1.png';

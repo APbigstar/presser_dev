@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Image, Form, Dropdown, Row, Col, Button, Modal } from 'react-bootstrap'
+import { Image, Form, Row, Col } from 'react-bootstrap'
 
 import Card from '../../components/common/Card'
 import user1 from '../../assets/images/users/user1.png'

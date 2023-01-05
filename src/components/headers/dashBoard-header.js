@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { Container, Image, Form, Dropdown } from 'react-bootstrap'
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 // img
 import onboardingLogo from '../../assets/images/logos/logo_new_1.png'
@@ -10,15 +8,8 @@ import user1 from '../../assets/images/users/user1.png'
 import dropdown from '../../assets/images/icons/dropdown.png'
 
 const DashboardHeader = () => {
-    // const minisidebar = () => {
-    //     document.getElementsByTagName("ASIDE")[0].classList.toggle("sidebar-mini");
-    // };
-
-    const [show1, setShow1] = useState(false);
 
     const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
     return (
@@ -33,17 +24,6 @@ const DashboardHeader = () => {
                             >
                                 <Image src={onboardingLogo} className="img-fluid onboarding_logo_img" alt="logo_img" />
                             </Link>
-                            {/* <Link
-                                to="#"
-                                className="sidebar-toggle"
-                                data-toggle="sidebar"
-                                data-active="true"
-                                onClick={minisidebar}
-                            >
-                                <div className="icon material-symbols-outlined iq-burger-menu">
-                                    <FontAwesomeIcon icon={faBars} className="text-white ms-3" />
-                                </div>
-                            </Link> */}
                         </div>
                         <div className="iq-search-bar device-search  position-relative">
                             <form action="#" className="searchbox" onClick={handleShow} data-bs-toggle="modal" data-bs-target="#exampleModalFullscreenSm">

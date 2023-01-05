@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
-import { Image, Row, Col, Container, Dropdown, OverlayTrigger, Tooltip, Modal } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import { Image, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClose, faGear, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import Card from '../../components/common/Card'
