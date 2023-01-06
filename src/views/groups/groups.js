@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tab, Nav, Image, Button, Modal, Form, ModalFooter } from 'react-bootstrap'
+import { Tab, Nav, Image, Button, Modal, Form } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Card from '../../components/common/Card'
