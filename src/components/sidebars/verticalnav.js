@@ -33,8 +33,8 @@ const VerticalNav = React.memo(() => {
                         <span className="item-name">Messages</span>
                     </Link>
                 </li>
-                <li className={`${location.pathname === '/' ? 'active' : ''} nav-item `}>
-                    <Link className={`${location.pathname === '/' ? 'active' : ''} nav-link `} aria-current="page" to="/">
+                <li className={`${location.pathname.split("/")[2] === 'groups' ? 'active' : ''} nav-item `}>
+                    <Link className={`${location.pathname.split("/")[2] === 'groups' ? 'active' : ''} nav-link `} aria-current="page" to="/dashboard/groups">
                         <OverlayTrigger placement="right" overlay={<Tooltip>Groups</Tooltip>}>
                             <FontAwesomeIcon icon={faUserGroup} />
                         </OverlayTrigger>

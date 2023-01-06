@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image, Form, Row, Col } from 'react-bootstrap'
-
 import Card from '../../components/common/Card'
+
 import user1 from '../../assets/images/users/user1.png'
 import user2 from '../../assets/images/users/user5.png'
 import user3 from '../../assets/images/users/user4.jpeg'

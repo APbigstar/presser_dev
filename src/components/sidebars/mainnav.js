@@ -13,11 +13,12 @@ const MainNav = () => {
     let channelPath = '/dashboard/app/channel';
     let settingPath = '/dashboard/settings';
     let messagePath = '/dashboard/messages';
+    let groupPath = '/dashboard/groups';
 
 
     return (
         <>
-            <div className={`${location.pathname === settingPath || location.pathname === messagePath ? 'd-none' : ''}`}>
+            <div className={`${location.pathname === settingPath || location.pathname === messagePath || location.pathname === groupPath ? 'd-none' : ''}`}>
                 <div className='dashboard-nav-bar-container'>
                     <div className='dashboard-nav-bar-content d-flex align-items-center justify-content-around'>
                         <Link className={`${location.pathname === breakingPath ? 'active' : ''} nav-item text-black font-16`} to={breakingPath}>Breaking</Link>
