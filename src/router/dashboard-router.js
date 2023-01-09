@@ -10,6 +10,7 @@ import Trending from '../views/dashboard/trending';
 import Settings from '../views/setting/settings';
 import Messages from '../views/common/messages';
 import Groups from '../views/groups/groups';
+import Notifications from '../views/common/notifications';
 
 const Layout1Router = () => {
     return (
@@ -20,6 +21,7 @@ const Layout1Router = () => {
                 <Route path="/dashboard/app/trending" component={Trending}></Route>
                 <Route path="/dashboard/settings" component={Settings}></Route>
                 <Route path="/dashboard/messages" component={Messages}></Route>
+                <Route path="/dashboard/notifications" component={Notifications}></Route>
                 <Route path="/dashboard/groups" component={Groups}></Route>
             </Switch>
         </>

@@ -25,8 +25,8 @@ const VerticalNav = React.memo(() => {
                         <span className="item-name">Home</span>
                     </Link>
                 </li>
-                <li className={`${location.pathname.split("/")[2] === 'common' ? 'active' : ''} nav-item `}>
-                    <Link className={`${location.pathname.split("/")[2] === 'common' ? 'active' : ''} nav-link `} aria-current="page" to="/dashboard/messages">
+                <li className={`${location.pathname.split("/")[2] === 'messages' ? 'active' : ''} nav-item `}>
+                    <Link className={`${location.pathname.split("/")[2] === 'messages' ? 'active' : ''} nav-link `} aria-current="page" to="/dashboard/messages">
                         <OverlayTrigger placement="right" overlay={<Tooltip>Messages</Tooltip>}>
                             <FontAwesomeIcon icon={faEnvelope} />
                         </OverlayTrigger>
@@ -41,8 +41,8 @@ const VerticalNav = React.memo(() => {
                         <span className="item-name">Groups</span>
                     </Link>
                 </li>
-                <li className={`${location.pathname === '/' ? 'active' : ''} nav-item `}>
-                    <Link className={`${location.pathname === '/' ? 'active' : ''} nav-link `} aria-current="page" to="/">
+                <li className={`${location.pathname.split("/")[2] === 'notifications' ? 'active' : ''} nav-item `}>
+                    <Link className={`${location.pathname.split("/")[2] === 'notifications' ? 'active' : ''} nav-link `} aria-current="page" to="/dashboard/notifications">
                         <OverlayTrigger placement="right" overlay={<Tooltip>Notifications</Tooltip>}>
                             <FontAwesomeIcon icon={faBell} />
                         </OverlayTrigger>
